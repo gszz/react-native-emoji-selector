@@ -13,10 +13,10 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import emoji from "emoji-datasource";
 
 export const Categories = {
-  all: {
-    symbol: null,
-    name: "All"
-  },
+  // all: {
+  //   symbol: null,
+  //   name: "All"
+  // },
   history: {
     symbol: "🕘",
     name: "Recently used"
@@ -49,14 +49,14 @@ export const Categories = {
     symbol: "💡",
     name: "Objects"
   },
-  symbols: {
-    symbol: "🔣",
-    name: "Symbols"
-  },
-  flags: {
-    symbol: "🏳️‍🌈",
-    name: "Flags"
-  }
+  // symbols: {
+  //   symbol: "🔣",
+  //   name: "Symbols"
+  // },
+  // flags: {
+  //   symbol: "🏳️‍🌈",
+  //   name: "Flags"
+  // }
 };
 
 const charFromUtf16 = utf16 =>
