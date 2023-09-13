@@ -14,7 +14,9 @@
   "author": "Arron Hunt",
   "license": "MIT",
   "dependencies": {
-    "emoji-datasource": "^6.0.0"
+    "@react-native-async-storage/async-storage": "^1.19.3",
+    "emoji-datasource": "^6.0.0",
+    "react-native-storage": "^1.0.1"
   },
   "repository": {
     "type": "git",
